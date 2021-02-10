@@ -8,3 +8,11 @@ function theBeatlesPlay(arrMus, arrInst) {
   }
   return array;
 }
+
+function johnLennonFacts(array) {
+  let i = 0
+  while(i < array.length) {
+    array[i] = `${array[i]}!!!`;
+  }
+  return array;
+}
