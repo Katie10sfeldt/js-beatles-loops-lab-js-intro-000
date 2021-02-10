@@ -9,6 +9,9 @@ function theBeatlesPlay(arrMus, arrInst) {
   return array;
 }
 
+
+//Add exclamation points to the end of each strings
+// -- works
 function johnLennonFacts(array) {
   let i = 0
   while(i < array.length) {
@@ -16,4 +19,17 @@ function johnLennonFacts(array) {
     i++
   }
   return array;
+}
+
+//returning an array with the string 'I love the Beatles'
+
+function iLoveTheBeatles(num) {
+  var array = [];
+  function incrementVariable() {
+    i = i + 1;
+    return i;
+  }
+  do {
+    array.push('I love the Beatles!');
+  } while (incrementVariable() < num);
 }
